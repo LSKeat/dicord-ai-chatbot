@@ -1,4 +1,5 @@
-Discord AI ChatBot May 2024
+## Discord AI ChatBot May 2024
+
 <br/>
 
 ## Getting Started
@@ -27,3 +28,18 @@ python version : 3.11.5
 ```bash
 pip install -r requirements.txt
 ```
+
+## Extra
+
+# Ollama
+
+You need to download [Ollama Website](https://ollama.com/) if you are using llama2 model or other model availables
+More information -> [Ollama](https://github.com/ollama/ollama)
+
+Download model from `ollama`
+
+```bash
+ollama pull llama2
+```
+
+
