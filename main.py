@@ -5,7 +5,7 @@ from discord import Intents, Client, Message
 from response_llama2 import get_response
 
 # Replace your discord api token
-TOKEN = 'DISCORD_TOKEN'
+DISCORD_TOKEN = 'DISCORD_TOKEN'
 
 intents: Intents = Intents.default()
 intents.message_content = True 
@@ -46,7 +46,7 @@ async def on_message(message: Message) -> None:
 
 # Start client
 def main() -> None:
-    client.run(token=TOKEN)
+    client.run(token=DISCORD_TOKEN)
 
 if __name__ == '__main__':
     main()
