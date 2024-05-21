@@ -1,5 +1,3 @@
-import os
-
 from discord import Intents, Client, Message
 # If using llama2 model change response_gemini -> response_llama2
 from response_llama2 import get_response
