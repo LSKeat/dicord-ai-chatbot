@@ -1,11 +1,9 @@
 import os
-from dotenv import load_dotenv
 
 import google.generativeai as genai
 
-load_dotenv()
 # Replace your Gemini api token
-TOKEN = os.getenv('GEMINI_TOKEN')
+GEMINI_TOKEN = 'GEMINI_TOKEN'
 
 def get_response(user_input):
     # Gemini 1.0 pro model
