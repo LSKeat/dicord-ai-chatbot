@@ -9,7 +9,7 @@ First, clone the repo and run the project:
 ```bash
 git clone https://github.com/LSKeat/dicord-ai-chatbot.git
 ```
-Second, replace your api key in the `main.py` and `gemini.py` file
+Second, replace your api key in the `main.py` and `response_gemini.py` file
 
 ```bash
 DISCORD_TOKEN = "YOUR_KEY"
