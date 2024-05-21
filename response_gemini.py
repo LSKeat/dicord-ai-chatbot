@@ -9,7 +9,7 @@ def get_response(user_input):
     # Gemini 1.0 pro model
     prompt = "You are a helpful ai assistant. Answer the user question."
 
-    genai.configure(api_key=TOKEN)
+    genai.configure(api_key=GEMINI_TOKEN)
     # Gemini 1.0 pro
     model = genai.GenerativeModel(model_name="gemini-1.0-pro")
 
