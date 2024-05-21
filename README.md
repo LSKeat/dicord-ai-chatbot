@@ -9,7 +9,7 @@ First, clone the repo and run the project:
 ```bash
 git clone https://github.com/LSKeat/dicord-ai-chatbot.git
 ```
-Second, edit your api key in `.env` file
+Second, edit your api key in file
 
 ```bash
 DISCORD_TOKEN = "YOUR_KEY"
