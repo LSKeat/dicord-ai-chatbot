@@ -1,13 +1,11 @@
 import os
-from dotenv import load_dotenv 
 
 from discord import Intents, Client, Message
 # If using llama2 model change response_gemini -> response_llama2
 from response_llama2 import get_response
 
-load_dotenv()
 # Replace your discord api token
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = 'DISCORD_TOKEN'
 
 intents: Intents = Intents.default()
 intents.message_content = True 
